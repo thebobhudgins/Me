@@ -3,5 +3,17 @@ body {
 }
 
 #main-name {
-  margin: 10% 5%;
+  margin: 10% 0 0 5%;
+  text-transform: uppercase;
+}
+
+ul#main-navigation {
+    margin: 0 0 0 8%;
+    list-style: none;
+    padding: 0;
+}
+
+ul#main-navigation > li {
+    display: inline-block;
+    margin-right: 1rem;
 }
